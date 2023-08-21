@@ -1,0 +1,26 @@
+Coordinate type: HEX
+xMax : 3
+yMax : 3
+
+Players: A B
+
+Locations:
+    /* Player A */
+    (1, 1) A dog
+    (-2, 0) A snail
+
+    /* Player B */
+    (-1, 1) B dog
+    (0, -2) B snail
+
+(0,0) exit
+(1,-2) exit
+
+
+Piece descriptors:
+    dog linear [distance 1, fly]
+    snail omni [distance 2, value 2]
+
+Rules:
+   TURN_LIMIT 1
+   SCORE 2

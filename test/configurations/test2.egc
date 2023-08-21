@@ -1,0 +1,33 @@
+Coordinate type: SQUARE
+xMax : 24
+yMax : 18
+
+Players : Gary Chris
+
+Locations:
+    (1,1) Gary frog
+    (4, 4) Chris frog
+    (8, 13) Gary frog
+    (8, 15) Gary frog
+    (6, 13) Gary frog
+    (6, 17) Gary frog
+    (8, 17) Gary horse
+    (5, 15) Gary horse
+    (4, 14) Gary horse
+    (7, 16) Gary bird
+    (5, 13) Gary bird
+    (10, 13) Gary snail
+    (10, 14) Gary snail
+    (10, 15) Gary snail
+    (10, 16) Gary snail
+    (10, 17) Gary snail
+    (10, 18) Gary snail
+    (9, 13) Gary dog
+    (7, 13) Gary dog
+
+ Piece descriptors :
+    SNAIL orthogonal [distance 1]
+    DOG linear [distance 5]
+    HORSE diagonal [distance 7, jump]
+    bird linear [fly, distance 5]
+    FROG omni [distance 3, unblock]

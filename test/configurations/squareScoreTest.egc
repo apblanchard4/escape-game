@@ -1,0 +1,28 @@
+Coordinate type : SQUARE
+xMax : 5
+yMax : 5
+Players : A B
+
+
+Locations:
+    (1,1) clear A snail
+    (2,4) clear A dog
+    (3,3) clear A frog
+
+    (2,5) clear B dog
+    (4,1) clear B snail
+    (1,3) clear B horse
+
+    (2,2) exit
+    (3,4) exit
+    (4,4) exit
+
+ Piece descriptors :
+    SNAIL orthogonal [distance 2, unblock, value 3]
+    DOG linear [distance 4]
+    HORSE diagonal [distance 2, jump]
+    FROG omni [distance 3, fly]
+
+ Rules:
+    TURN_LIMIT 2
+    SCORE 3

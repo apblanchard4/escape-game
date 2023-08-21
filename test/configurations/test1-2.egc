@@ -1,0 +1,11 @@
+Coordinate type : SQUARE
+xMax : 0
+yMax : 0
+Players : Chris Pat
+
+
+Locations:
+    (4,4) clear Chris snail
+
+Piece descriptors :
+    SNAIL omni [distance 1]
